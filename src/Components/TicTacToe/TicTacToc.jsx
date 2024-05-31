@@ -70,7 +70,7 @@ const TicTacToc = () => {
   const reset = () => {
     setLock(false);
     data = ["", "", "", "", "", "", "", "", ""];
-    titleRef.current.innerHTML = "Tic <span>Tac</span> Toc Game";
+    titleRef.current.innerHTML = "Tic <span>Tac</span> Toe Game";
     box_array.map((e) => {
       e.current.innerHTML = "";
     });
