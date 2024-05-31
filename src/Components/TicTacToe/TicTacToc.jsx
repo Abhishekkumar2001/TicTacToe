@@ -159,6 +159,9 @@ const TicTacToc = () => {
       >
         Reset
       </button>
+      <footer>
+        <p>&copy; 2024 <a href="https://www.linkedin.com/in/abhishek-kumar-tiss/">Developer_Abhi</a> . All rights reserved.</p>
+    </footer>
     </div>
   );
 };

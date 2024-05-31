@@ -58,6 +58,17 @@
     width: 50px;
     height: 50px;
 }
+footer{
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+footer a{
+    text-decoration: none;
+    color: orangered;
+}
 @media screen and (max-width: 768px){
     .container{
         width: 100%;
@@ -104,12 +115,21 @@
         font-weight: bolder;
         color: #26ffcb;
         margin-top: 25px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
     .title img{
         padding: 10px;
         width: 30px;
         height: 30px;
     }
+    footer{
+        padding: 5px;
+        width: 100%;
+        background-color: white;
+        color: black;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
     
 }
